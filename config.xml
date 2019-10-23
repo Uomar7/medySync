@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.king.hello" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>UOMAR</name>
+    <name>Medy<strong>Sync</strong></name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
     <author email="umar.ngare@gmail.com" href="http://cordova.io">
        Ngare Mobile Solutions. (;
     </author>
-    <content src="index.html" />
+    <content src="profile.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -25,5 +25,6 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        <icon src="assets/icon/Frame.png" density="mdpi" />
     </platform>
-</widget>
+</widget>>

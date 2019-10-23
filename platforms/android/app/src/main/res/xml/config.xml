@@ -4,14 +4,15 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>UOMAR</name>
+    <name>Medy        <strong>Sync</strong>
+</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
     <author email="umar.ngare@gmail.com" href="http://cordova.io">
        Ngare Mobile Solutions. (;
     </author>
-    <content src="index.html" />
+    <content src="profile.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
