@@ -1,0 +1,36 @@
+* {
+     padding: 0;
+     margin: 0;
+     overflow: hidden;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+     height: 100vh;
+     width: 100%;
+     padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-right, 0px);
+     background-color:rgb(216, 216, 216);
+}
+
+html {
+     position: relative; 
+}
+
+.navbar {
+     background: rgb(179, 0, 110);
+     height: 6%;
+     display: flex;
+     align-items: center;
+}
+
+svg {
+     width: 60px;
+     height: 6px;
+}
+ 
+svg line {
+     stroke: rgb(221, 218, 218);
+}
