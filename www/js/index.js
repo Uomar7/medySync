@@ -20,7 +20,7 @@
 document.addEventListener('deviceready', () => {
 
      const button = document.getElementById('button');
-     const div = document.getElementById('toggle');
+     const div = document.getElementById('sidenav');
 
      button.addEventListener('click', (e) => {
           e.preventDefault();
